@@ -1,0 +1,22 @@
+2:-Write a function to add two integers. 
+#include<stdio.h>
+int sum(int a, int b);
+void main()
+{
+    int a,b,add;
+    printf("\n enter the numbers:");
+    scanf("%d%d",&a,&b);
+    
+    add=sum(a,b);
+    printf("sum=%d",add);
+    
+}
+
+int sum(int a,int b)
+{
+    int add;
+    add=a+b;
+    return add;
+}
+
+
