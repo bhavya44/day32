@@ -1,0 +1,13 @@
+1:-Write a program to get two integers from the user and print the sum of the two integers?
+#include<stdio.h>
+void main()
+{
+    int a,b;
+    printf("enter two numbers:");
+    scanf("%d%d",&a,&b);
+    
+    printf("the sum of two numbers:%d",(a+b));
+}
+
+
+
